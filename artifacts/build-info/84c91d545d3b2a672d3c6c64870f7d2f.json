@@ -21,16 +21,8 @@
       },
       "outputSelection": {
         "*": {
-          "*": [
-            "abi",
-            "evm.bytecode",
-            "evm.deployedBytecode",
-            "evm.methodIdentifiers",
-            "metadata"
-          ],
-          "": [
-            "ast"
-          ]
+          "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
+          "": ["ast"]
         }
       }
     }
@@ -115,9 +107,7 @@
         "ast": {
           "absolutePath": "contracts/test/MockObservable.sol",
           "exportedSymbols": {
-            "MockObservable": [
-              156
-            ]
+            "MockObservable": [156]
           },
           "id": 157,
           "license": "UNLICENSED",
@@ -125,12 +115,7 @@
           "nodes": [
             {
               "id": 1,
-              "literals": [
-                "solidity",
-                "=",
-                "0.7",
-                ".6"
-              ],
+              "literals": ["solidity", "=", "0.7", ".6"],
               "nodeType": "PragmaDirective",
               "src": "39:23:0"
             },
@@ -141,9 +126,7 @@
               "contractKind": "contract",
               "fullyImplemented": true,
               "id": 156,
-              "linearizedBaseContracts": [
-                156
-              ],
+              "linearizedBaseContracts": [156],
               "name": "MockObservable",
               "nodeType": "ContractDefinition",
               "nodes": [
@@ -546,10 +529,7 @@
                             "id": 24,
                             "name": "require",
                             "nodeType": "Identifier",
-                            "overloadedDeclarations": [
-                              -18,
-                              -18
-                            ],
+                            "overloadedDeclarations": [-18, -18],
                             "referencedDeclaration": -18,
                             "src": "479:7:0",
                             "typeDescriptions": {
@@ -1334,10 +1314,7 @@
                             "id": 83,
                             "name": "require",
                             "nodeType": "Identifier",
-                            "overloadedDeclarations": [
-                              -18,
-                              -18
-                            ],
+                            "overloadedDeclarations": [-18, -18],
                             "referencedDeclaration": -18,
                             "src": "1082:7:0",
                             "typeDescriptions": {
@@ -1365,9 +1342,7 @@
                         "src": "1082:150:0"
                       },
                       {
-                        "assignments": [
-                          104
-                        ],
+                        "assignments": [104],
                         "declarations": [
                           {
                             "constant": false,
@@ -1656,9 +1631,7 @@
                         "src": "1361:50:0"
                       },
                       {
-                        "assignments": [
-                          129
-                        ],
+                        "assignments": [129],
                         "declarations": [
                           {
                             "constant": false,
